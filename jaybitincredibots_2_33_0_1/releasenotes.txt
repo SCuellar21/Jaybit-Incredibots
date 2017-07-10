@@ -1,0 +1,381 @@
+Jaybit Version 2.33.0.1
+-----------------------------
+- Fixed problems with loading old challenges.
+- Raised limit concerning collisions.
+Uploaded October 29, 2011
+
+Jaybit Version 2.33
+-----------------------------
+- Self-collision! (in Advanced panel for shapes and sliding joints)
+- Fixed bug in thruster activation priorities.
+- Possibly fixed a rare bug that shows the grey screen.
+- Fixed bug that restarted shapes' collision groups when mirroring.
+- Fixed bug that restarted sliding joints' collision groups when copy/pasting.
+Uploaded July 5, 2011
+
+Jaybit Version 2.33
+-----------------------------
+- Load Replay now works (loading from file)
+- Undoing deletion of sliding joints now show in the correct order
+Uploaded May 18, 2011
+
+Jaybit Version 2.32.1
+-----------------------------
+- Minor change for online version for bandwidth usage improvements
+- Fixed bug that allowed copying things with higher or lower values than a challenge allows
+- Sliding joints now appears in the correct order it was copied
+- Editing trigger lists in multi-edit for rotating joints no longer changes the trigger list for fixed joints (and vice versa)
+- Mirroring now does not change the order of the mirrored shapes.
+Uploaded May 13, 2011
+
+Jaybit Version 2.32
+-----------------------------
+- Collision groups!
+- New background replays!
+- Group edit (and group move to front/back)
+- Joint Visualization
+- Rotation Increments (hold shift while rotating)
+- Restrict sliding joints by increments (hold shift)
+- Scroll screen faster (hold Ctrl)
+- Maximum triangle and other triangle tools
+- Some performance improvements
+- Minor changes
+- Fixed bug that saved cannonball info in saves, causing ridiculously large size in files and export code
+- Fixed triggered rotating priorities
+- Undoing deleted part now shows in previous order
+- Fixed the ability to "rotate" a joint (which doesn't do anything)
+- Fixed bug that clears undo log when changing thrusters strength
+- Fixed bug that deletes textbox when deleting large text
+- Fixed rare undo/redo bug with triggers
+- Fixed shape counter bug (undo/redo)
+- Fixed bug that creates a deleted joint while undoing without the second shape
+- Fixed bug that showed the build box panel on top of rotating joints panel
+- Fixed bug that shows menu when another is already open (hopefully)
+- Thrusters are correctly positioned when undoing/redoing
+- Fixed duplicate cannonballs on multiple triggered cannons
+- Some undo values now correctly return
+- Fixed bug when fixed joints are destroyed even if they're not triggered.
+- Fixed bug that prevented loading from database due to domain changes
+- Fixed bug that caused issues when clicking buttons while selecting a condition
+Uploaded April 24, 2011
+
+Jaybit Version 2.31.0.1
+-----------------------------
+- Replay bug fix
+- Triggered rotation priority fix
+Uploaded Feb 5, 2011
+
+Jaybit Version 1.21.0.1
+-----------------------------
+- Bug fix: Fixed bug that prevented loading from database due to domain changes (online only)
+Uploaded Mar 31, 2011
+
+Jaybit Version 2.31
+-----------------------------
+- Update notification (downloadable version only)
+- Triggers! (Check out Help for more information)
+- Ability to change friction and restitution (bounciness)
+- Shape limit increased to 750
+- Holding shift while making rectangles makes perfect squares
+- Added "live update" of current value when adjusting sliders
+- Changes in save format (old format still works)
+- Notification if loaded/imported bot is an IB1 bot
+- Changed "High Scores" button in Main Menu to "Featured bots"
+- Small GUI changes
+- Fixed bug of adding new but inactive and invisible cannons and thrusters during simulation
+- Shape counter now properly updates when shapes are deleted
+- Fixed slider joint shape selecting visualization bug.
+- Fixed values in text fields sometimes not saving when switching shape/joint panels.
+- Shortcuts are properly disabled when editing certain text fields
+- Fixed bug that had intentionally put some sort of sliding joint max
+- Loading from build mode now shows IB1 bots
+- In fixated shapes (connected together with fixed joints), camera focus defaults to the shape that actually has the camera focus
+Uploaded Jan 15, 2011
+
+
+Jaybit Version 1.21
+-----------------------------
+- Update notification (downloadable version only)
+- Bug fix: Fixed "What's new" window not disappearing when pressing "Play!"
+Uploaded Jan 15, 2011
+
+Jaybit Version 1.20/2.30
+------------------------
+- Save bot to file
+- Load bot from file
+- Load bot from file and insert (Load and Insert)
+- Import and insert
+- Editable/unedtiable is back
+- Shape counter
+- Convert code to file and convert file to code
+Uploaded Dec 22, 2010
+
+Jaybit Version 2.24
+-------------------
+- Marks the first version to officially and completely deviate from the original open-source files.
+- No open-source files.
+- Cursor bug fixed (mentioned in 2.23, except in pre-compiled form).
+- Load Robot/Replay/Challenge and Login buttons are disabled (instead of an error popping up, nothing will happen).
+- Bug in exporting challenges causing unwanted "camera" placement and "zoom" have been fixed.
+- Added a tolerance fix that will correct the unwanted "camera" placement and "zoom" of challenges when importing.
+Uploaded Nov 30, 2010
+
+Version 1.12/2.23
+-----------------
+- Fixed bugs in source code that prevented successful importing of robots and challenges in both Incredibots 1 and 2 (pre-compiled SWFs are fine).
+- Also fixed both IncrediBots 1 and 2 mouse cursor bugs (Incredibots 1 with its reappearing OS cursor, Incredibots 2 with its disappearing/flickering OS cursor). Bug fixes in source code only (pre-compiled SWFs are untouched).
+Uploaded Nov 24, 2010
+
+Version 1.11/2.22
+-----------------
+- shut IncrediBots 1 and 2 websites down and uploaded open-sourced versions to SourceForge ( http://sourceforge.net/projects/incredibots/ )
+Uploaded Nov 19, 2010
+
+Version 1.09/2.14
+-----------------
+- disabled saving, and added importing/exporting to text
+Uploaded Oct. 20, 2010 
+
+Version 2.13
+------------
+- fixed bug with challenge featuring
+Uploaded Aug. 12, 2009
+
+Version 2.12
+------------
+- changes to featuring system
+Uploaded July 6, 2009
+
+Version 1.08/2.11
+-----------------
+- various minor updates and bug fixes
+Uploaded June 25, 2009
+
+Version 1.07/2.10
+-----------------
+- IncrediBots 2 released publicly!
+- added ability to export your robots from IB1 to IB2. Note that the physics will not be exactly the same, so rube goldberg machines and such may need some tweaking.
+- fixed a few bugs involving using cannons in challenges and in replays
+- tweaked sounds a bit
+- added 4 challenges to the tutorial menu
+Uploaded June 19, 2009
+
+Version 2.08
+------------
+- added sound!
+- added cannons!
+- changed default color and colors in the drop down box
+- selected shapes now turn transparent
+- fixed bug with displayable text not working in replays
+- fixed duplicate featured stuff bug
+- UI improvements to login/logout
+Uploaded May 28, 2009
+
+Version 2.07
+------------
+- added default color feature to color change GUI
+- various tutorial and UI improvements
+Uploaded May 14, 2009
+
+Version 2.06
+------------
+- added 2 new options to restrictions GUI
+- added option to turn off collisions for sliding joints
+- fixed bug with text disappearing in challenges
+- added 2 new tutorials explaining some new features in IB2
+Uploaded May 1, 2009
+
+Version 2.05
+------------
+- fixed another bug with certain loss conditions
+- fixed bug with slow rotating objects being jerky in replays
+- robots can now be saved for specific challenges, and the challenge will load when the robot loads
+- added undraggable feature (thanks to those that suggested this!)
+- added multi-fixate and multi-collide features
+- fixed mirroring sliding joint bug
+Uploaded April 21, 2009
+
+Version 2.04
+------------
+- fixed bugs having to do with challenge conditions
+- fixed many other bugs that were reported in the beta testing thread
+- added a few buttons/menu options here and there
+Uploaded April 16, 2009
+
+Version 2.01
+------------
+- fixed bug that made challenged uneditable
+- fixed bug that crashed browser when using certain win/loss conditions
+- fixed bug that made multi-select box stay visible after selecting things
+- fixed several bugs that caused weird results after loading and stopping replays of challenges
+- added feature that saves latest camera position and zoom level of robots and challenges
+Uploaded Mar. 19, 2009
+
+Version 2.00
+------------
+- Incredibots 2 released for private beta testing!
+- added challenges, new sandbox features, mouse dragging, and more
+- see post in Feature Requests forum for more details.
+Uploaded Mar. 17, 2009
+
+Version 1.06
+------------
+- fixed a bug that sometimes allowed saving of robots associated with replays
+Uploaded Mar. 9, 2009
+
+Version 1.05
+------------
+- added additional features for inappropriate reporting, to prevent false positives
+Uploaded Mar. 2, 2009
+
+Version 1.04
+------------
+- fixed a rare bug that affected loading robots/replays
+Uploaded Feb. 25, 2009
+
+Version 1.03
+------------
+- fixed an exploit that allowed copying of uncopyable robots
+Uploaded Jan. 28, 2009
+
+Version 1.02
+------------
+- fixed a bug that was causing "An error has occurred" message when loading robots
+Uploaded Jan. 13, 2009
+
+Version 1.01
+------------
+- made a couple tweaks to supporter vs non-supporter logins
+Uploaded Jan. 12, 2009
+
+Version 1.00
+------------
+- beta testing is over!
+Uploaded Jan. 9, 2009
+
+Version 0.21
+------------
+- allowed logging in to premium mode from incredibots.com
+- fixed bug involving mirroring sliding joints
+- fixed bug involving sliding joints, fixed joints, and fixating shapes
+Uploaded Jan. 8, 2009
+
+Version 0.20
+------------
+- fixed exploit that was allowing thrusters in challenges
+Uploaded Jan. 7, 2009
+
+Version 0.19
+------------
+- fixed bug that was allowing non-supporters to edit thrusters sometimes
+- fixed "auto-on" bug with thrusters
+Uploaded Jan. 6, 2009
+
+Version 0.18
+------------
+- fixed some minor bugs with mirroring thrusters and multi-selecting
+Uploaded Dec. 19, 2008
+
+Version 0.17
+------------
+- added IncrediBots Gold features: thrusters, resizing, and mirroring
+Uploaded Dec. 19, 2008
+
+Version 0.16
+------------
+- database migration completed!
+Uploaded Dec. 15, 2008
+
+Version 0.15
+------------
+- switched over the database to the new server and fixed a couple issues caused by the switchover
+Uploaded Dec. 11, 2008
+
+Version 0.14
+------------
+- preparations for database migration
+Uploaded Dec. 5, 2008
+
+Version 0.13
+------------
+- (hopefully) fixed issue with scores of 999 being given sometimes
+Uploaded Nov. 28, 2008
+
+Version 0.12
+------------
+- fixed issue with game giving credit cost warning in tutorial levels
+Uploaded Nov. 27, 2008
+
+Version 0.11
+------------
+- moved database code onto a new server, which should make it faster when saving and loading
+- made several small user interface tweaks
+Uploaded Nov. 26, 2008
+
+Version 0.10
+------------
+- added a "Prop" feature, which lets you save robots as props to be used as parts of other robots/replays
+- fixed bug with rating system that allowed bots to be rated multiple times
+Uploaded Nov. 20, 2008
+
+Version 0.09
+------------
+- added a rating system, so bots and replays can be rated, and sorted by rating
+- added a "featured" system, where moderators can feature a robot or replay, and added an option to filter out only featured robots and replays
+- fixed bug with sliding joints getting ordered in front when a robot was saved and then loaded
+- separated comments on robots, replays, and scores into 3 separate forums
+Uploaded Nov. 19, 2008
+
+Version 0.08
+------------
+- (hopefully) fixed bug where right clicking would crash the browser sometimes
+- embed no longer uses iframes, and allows you to specify the width
+- added ability to change the color of a group of objects
+- added a new filtering option, sort period, to the load GUI
+Uploaded Nov. 17, 2008
+
+Version 0.07
+------------
+- fixed bug with watching replays of certain tutorial levels
+- added method of reporting inappropriate content
+Uploaded Nov. 13, 2008
+
+Version 0.06
+------------
+First public beta release
+- fixed bug with high scores linking to wrong replays
+Uploaded Nov. 10, 2008
+
+Version 0.05
+------------
+- fixed some issues with dialogs sticking to screen and disabling input
+- changed the way replays are recorded and played back in an effort to improve stability. Because of this, old replays (0.04 or before) no longer work with the current version of the game (0.05). Now if you load an old replay, the game will automatically redirect you to an old version that can be used to view the replay.
+Uploaded Nov. 10, 2008
+
+Version 0.04
+------------
+- fixed bug with using pistons + fixed joints
+- fixed bug with login not being case sensitive
+Uploaded Nov. 7, 2008
+
+Version 0.03
+------------
+- made undo/redo apply to everything
+- adjusted the "starting box" so it's not in the ground
+- made clicking to cycle through objects work with joints and text
+- added "High Scores" button to main menu and improved High Scores GUI
+- made some changes to (hopefully) improve replay syncing
+Uploaded Nov. 6, 2008
+
+Version 0.02
+------------
+- Modified credit cost formulas
+- Made non-colliding parts collide with uneditable objects
+- Added a "lip" to the Dump challenge
+- Added 2 more balls to the target part of the Obstacle Course challenge and made it so the target must be hit with a ball
+Uploaded Nov. 3, 2008
+
+Version 0.01
+------------
+Initial beta version
+Uploaded Oct. 31, 2008

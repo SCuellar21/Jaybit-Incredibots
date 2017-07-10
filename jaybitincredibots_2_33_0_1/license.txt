@@ -1,0 +1,36 @@
+Copyright (c) 2011 IncrediBots
+
+Please note that using and/or downloading the included files will mean
+that you have agreed to the Terms of Use.
+
+The included files (the "Software") are provided and distributed free of
+charge and must be distributed in an equal or similar latest license as
+this software. The old copyright and license in the previous releases of
+open-source files released prior to this and any other "Jaybit"
+release and does not affect this release's lack of source code
+availability. Disclaimers of the original license still remain.
+
+This may only be distributed if the following conditions are met:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+The distribution is provided free of charge and of the same or similar
+license as this release.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+Disclaimer: IncrediBots is in no way associated with Big Fish Games Inc.,
+is not liable, and assumes no responsibility for any content, sites, or
+forums that has not been explicitly claimed or noted by the administrators of
+IncrediBots. Any user-generated content is not IncrediBots' or its
+administrators' responsibility, and thus not liable for any unwanted content.
+
+Please read the Terms of Use (http://incredibots.com/if/terms.php) before
+using the game.
